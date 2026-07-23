@@ -1,8 +1,23 @@
 aid: anobit-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anobit-technologies.png
 name: Anobit Technologies
-description: Anobit Technologies is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Anobit Technologies was an Israeli fabless semiconductor company, founded in 2006, that
+  developed flash-memory Memory Signal Processing (MSP) controller technology to extend the endurance,
+  reliability, and performance of consumer-grade NAND flash used in SSDs and mobile devices. Backed
+  by Battery Ventures among others, Anobit was acquired by Apple in early 2012 and no longer operates
+  as an independent company. It has no public developer surface, API program, or live web presence,
+  and remains in the API Evangelist network only as a historical portfolio-company record.
 url: https://raw.githubusercontent.com/api-evangelist/anobit-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +25,30 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: acquired-by-apple-2012
+x-domain-status: no-dns
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Semiconductors
+- Flash Memory
+- NAND Flash
+- SSD
+- Storage
+- Hardware
+- Israel
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
